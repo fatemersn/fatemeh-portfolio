@@ -143,7 +143,7 @@ export const smartInvest = {
             { label: "04", title: "Cosmetic enhancement", body: "Affects visual polish without significantly changing the journey." },
           ],
         },
-        { t: "image", src: "smart-invest/prioritization.png", ratio: "1976 / 860" },
+        { t: "image", src: "smart-invest/prioritization.png", ratio: "1560 / 678" },
         { t: "divider" },
         {
           t: "note",
@@ -267,12 +267,7 @@ export const couponCreation = {
           text: "Active food vendors, vendors who have never created a coupon, and new, returning, active and churned vendor segments.",
           note: "Sources include a 1,030-response promotion awareness survey, 59 coupon non-users, vendor usability research and November 2025 restaurant-order data.",
         },
-        {
-          t: "image",
-          src: "coupon-creation/research.png",
-          ratio: "1040 / 335",
-          crop: { height: "166.57%", left: "-0.06%", top: "-45.07%", width: "100.12%" },
-        },
+        { t: "image", src: "coupon-creation/research.png", ratio: "1560 / 735" },
         {
           t: "insight",
           label: "01 / LISTEN",
@@ -349,7 +344,13 @@ export const couponCreation = {
         },
       ],
       after: [
-        { t: "concept" },
+        {
+          t: "figure",
+          src: "coupon-creation/concept.png",
+          ratio: "1944 / 917",
+          caption:
+            "Conceptual flow illustration / Editable English reconstruction of the proposal’s interaction model; not a production screen.",
+        },
         {
           t: "insight-pair",
           items: [
@@ -438,14 +439,7 @@ export const foodPro = {
           t: "p",
           text: "After the first release, the business asked for quick improvements to conversion. The offer could reduce the cost of the current order, but users needed to notice it, understand the payment, and know what selecting Pro meant.",
         },
-        {
-          t: "phones",
-          items: [
-            { src: "foodpro/context-1.png", height: 642.857, crop: { height: "100%", left: "-0.16%", top: "0", width: "202.1%" } },
-            { src: "foodpro/context-2.png", height: 651.381, crop: { height: "100.07%", left: "0", top: "-0.03%", width: "204.98%" } },
-            { src: "foodpro/context-3.png", height: 646.409, crop: { height: "100.06%", left: "0", top: "-0.03%", width: "306.73%" } },
-          ],
-        },
+        { t: "image", src: "foodpro/context.png", ratio: "1470 / 978", width: 964 },
       ],
     },
     {
@@ -495,7 +489,7 @@ export const foodPro = {
           t: "p",
           text: "“Pay less on this order” made the value more concrete than “save.” This learning changed our writing strategy: lead with what the customer pays now.",
         },
-        { t: "image", src: "foodpro/design-writing.png", ratio: "1040 / 730.25" },
+        { t: "image", src: "foodpro/design-writing.png", ratio: "1022 / 1097", width: 1022 },
       ],
     },
     {
@@ -515,7 +509,7 @@ export const foodPro = {
           size: "body",
           text: "Version A achieved higher successful subscription purchase conversion than B, so we selected A. V2 reached 16.1%, compared with 7.8% in the original flow.",
         },
-        { t: "image", src: "foodpro/experiment.png", ratio: "1040 / 730.25" },
+        { t: "image", src: "foodpro/experiment.png", ratio: "1560 / 1096" },
         { t: "note", text: "LEFT: ORIGINAL / CENTER: B / RIGHT: A" },
       ],
     },
@@ -535,7 +529,7 @@ export const foodPro = {
           t: "p",
           text: "The “free subscription” message meant the savings on this order covered the subscription fee. The fee itself was not zero.",
         },
-        { t: "image", src: "foodpro/after-launch.png", ratio: "1040 / 730.25" },
+        { t: "image", src: "foodpro/after-launch.png", ratio: "1560 / 1096" },
       ],
     },
     {
@@ -550,7 +544,7 @@ export const foodPro = {
           t: "p",
           text: "We changed it to “Continue without Pro.” V3 was released and reached 18.1% successful subscription purchase conversion: 2 percentage points above V2.",
         },
-        { t: "image", src: "foodpro/v3.png", ratio: "390 / 828", width: 390 },
+        { t: "image", src: "foodpro/v3.png", ratio: "1559 / 1455" },
         { t: "note", text: "V3 / CURRENT-ORDER VALUE & AN EXPLICIT WAY TO DECLINE" },
       ],
     },

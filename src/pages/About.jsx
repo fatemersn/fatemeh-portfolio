@@ -36,10 +36,10 @@ const sections = [
     title: "Outside university",
     range: "01 — 04",
     cards: [
-      { image: "card-eye.png", title: "My brand “Jaryan”" },
-      { image: "card-gradient.png", title: "Visiting Art Galleries" },
-      { image: "card-green.png", title: "Traveling" },
-      { image: "card-green.png", title: "Running" },
+      { image: "outside-jaryan.png", title: "My brand “Jaryan”" },
+      { image: "outside-galleries.png", title: "Visiting Art Galleries" },
+      { image: "outside-travel.png", title: "Traveling" },
+      { image: "outside-running.png", title: "Running" },
     ],
   },
   {
@@ -93,7 +93,7 @@ export default function About() {
       <section className="about-hero">
         <div className="about-hero__inner">
           <figure className="persona">
-            <div className="persona__image" role="img" aria-label="Portrait of Fatemeh" />
+            <img className="persona__image" src={img("persona.png")} alt="Portrait of Fatemeh" />
             <figcaption className="persona__caption">It’s me :)</figcaption>
           </figure>
           <p className="about-hero__bio">

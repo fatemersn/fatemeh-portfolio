@@ -195,7 +195,7 @@ function After({ b }) {
     case "figure":
       return (
         <figure className="figure">
-          <Img src={b.src} ratio="1344 / 820.262" className="img--contain" />
+          <Img src={b.src} ratio={b.ratio || "1344 / 820.262"} className="img--contain" />
           <figcaption className="note">{b.caption}</figcaption>
         </figure>
       );

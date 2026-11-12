@@ -251,9 +251,12 @@ p {
 }
 
 .persona__image {
+  display: block;
   width: 195px;
   height: 195px;
+  object-fit: cover;
   border: 1.5px solid var(--ink-soft);
+  border-radius: 50%;
 }
 
 .persona__caption {
